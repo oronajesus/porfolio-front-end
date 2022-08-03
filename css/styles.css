@@ -216,7 +216,7 @@ small, .small {
 
 mark, .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #faf8ec;
 }
 
 sub,
@@ -234,9 +234,9 @@ sub {
 sup {
   top: -0.5em;
 }
-
+/*este es el color del send*/
 a {
-  color: #1abc9c;
+  color: #2ac2a3;
   text-decoration: underline;
 }
 a:hover {
@@ -7757,7 +7757,7 @@ textarea.form-control-lg {
 
 .text-black {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+  color: var(--bs-blue) , var(--bs-text-opacity)) !important;
 }
 
 .text-white {
